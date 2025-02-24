@@ -112,7 +112,7 @@
     "chokuretsu-rom-patcher-repairing": "Восстановление поврежденного ROM...",
     "chokuretsu-rom-patcher-patch-error": "Ошибка применения патча ",
     "chokuretsu-rom-patcher-repair-applied": "Исправление применено!",
-    "chokuretsu-rom-patcher-patching-rom": "Исправление ROM с помощью {patch}...",
+    "chokuretsu-rom-patcher-patching-rom": "ROM патчинг с помощью {patch}...",
     "chokuretsu-rom-patcher-invalid-rom-select": "Выбрано неверное ROM. Пожалуйста, выберите правильный ROM файл <i>Suzumiya Haruhi no Chokuretsu</i> <code>.nds</code>.",
     "chokuretsu-rom-patcher-no-patches-available": "Патчей пока нет! Пожалуйста вернитесь позже!",
     "chokuretsu-sl-script-editor-alt": "Редактор скрипта",

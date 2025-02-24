@@ -1,47 +1,47 @@
 ---
-title: 'Dumping the ROM'
+title: 'ROM Дампинг'
 navigation:
   current: '/dumping-the-rom'
   previous: '/buying-the-game'
   next: '/patching-the-rom'
 ---
 
-To dump your ROM file, you will need a Nintendo DS or 3DS system in addition to your game. Some methods will require additional peripherals, like an SD card or mobile device capable of making an unsecured hotspot.
+Чтобы создать дамп ROM файла , помимо игры вам понадобится консоль Nintendo DS или 3DS. Для некоторых методов потребуются дополнительные устройства, такие как SD-карта или телефон, способный создать незащищённую точку доступа.
 
 ---
 
-**Select platform to dump the ROM with:**
+**Выберите платформу для дампа ROM файла:**
 ::guide-platform-filter
 ---
 filters: ['Nintendo DS', 'Nintendo DSi', 'Nintendo 3DS']
 ---
 <div class="platform-filtered platform-nintendo_ds">
 
-### Dumping with a Nintendo DS or DS lite
-There are two ways of dumping the game using a Nintendo DS or Nintendo DS lite system. Both require the use of a Slot-1 (DS cartridge slot) flash cart.
+### Дампинг на Nintendo DS или DS lite
+Существует два способа дампа игры с помощью Nintendo DS или Nintendo DS lite. Оба требуют использования флеш-картриджа в первом слоте (гнездо для картриджа DS).
 
-The first method uses a Wi-Fi hack to dump over File Transfer Protocol (FTP). The second method uses a pair of Slot-1 and Slot-2 (GBA cartridge slot) flash carts to dump the ROM directly.
+Первый метод использует взлом через Wi-Fi для дампа по протоколу передачи файлов (FTP). Второй метод потребует пару флэш-карт в 1 и 2 слоте (слот для картриджа GBA) для прямого ROM дампа .
 
-#### Dump over Wi-Fi
-**Requirements:**
-* Nintendo DS or DS lite console
-* *Suzumiya Haruhi no Chokuretsu*
-* Slot-1 Flash cartridge (e.g. R4 cartridge. Also, an SD or microSD card to load stuff onto it as required)
-* Smartphone, tablet or other device that can create an unsecured or WEP-secured Wi-Fi hotspot
-  - Most modern computers aren't able to do this, unfortunately. The best devices for doing this are Android smartphones.
-  - Apple and Windows devices (including the iPhone) are not capable of creating insecure or WEP-secured hotspots.
-* A computer you can use to [download wooddumper](https://digiex.net/threads/wood-dumper-dump-nintendo-ds-roms-and-save-games-over-wi-fi-with-an-nintendo-ds.14729/) and connect to said hotspot with
-* A DS game with Wi-Fi support. It doesn't matter that the service has ended. Unfortunately, *Suzumiya Haruhi no Chokuretsu* does not have Wi-Fi support.
+#### Дамп через WI-Fii
+**Требования:**
+* Консоль Nintendo DS или DS lite.
+* *Последовательности Харухи Судзумии*
+* Флэш-картридж в первом слоте (например, картридж R4. Также карта SD или microSD для загрузки на нее данных по мере необходимости)
+* Смартфон, планшет или другое устройство, которое может создавать незащищенную или защищенную WEP точку доступа Wi-Fi.
+  - К сожалению, большинство современных компьютеров не способны на это. Лучшими устройствами для этого являются Android-смартфоны.
+  - Устройства Apple и Windows (включая iPhone) не способны создавать незащищенные или защищенные с помощью WEP точки доступа.
+* Компьютер, который вы можете использовать для [загрузки wooddumper] (https://digiex.net/threads/wood-dumper-dump-nintendo-ds-roms-and-save-games-over-wi-fi-with-an-nintendo-ds.14729/) и подключения к указанной точке доступа
+* Игра DS с поддержкой Wi-Fi. Неважно, что поддержка закончилась. К сожалению, *Suzumiya Haruhi no Chokuretsu* не поддерживает Wi-Fi.
 
-**Method:**
-1. Using your smartphone, tablet or other device that can create a wireless hotspot, make an unsecured (no password) or WEP secured hotspot (must be WEP-secured; WPA and other modern encryption standards are not supported by the DS).
-2. On the other computer, [download wooddumper](https://digiex.net/threads/wood-dumper-dump-nintendo-ds-roms-and-save-games-over-wi-fi-with-an-nintendo-ds.14729/). Then, connect that computer to the hotspot you just created.
-3. Install the wooddumper.nds (not the Slot 2 version) homebrew app onto the right part of your flash cart via the SD card.
-4. Insert the Nintendo DS game that has Nintendo Wi-Fi connection support and navigate to the menu that allows you to configure your Wi-Fi connection. Connect to the hotspot you made.
-5. Exit the game and remove the cartridge. Now, insert your flash cartridge you just put wooddumper on and navigate to run it on your DS.
-6. Follow the on-screen instructions and insert your *Suzumiya Haruhi no Chokuretsu* cart when prompted. Proceed until you are presented with an IP address to connect to using an FTP client.
-7. Using an FTP client, such as [net2ftp](https://www.net2ftp.com/), a built-in browser one or another such as [FileZilla](https://filezilla-project.org/), enter the IP address into the relevant field. You do not need to specify a username or password.
-8. Copy the .nds ROM file and .txt file to your computer. You can proceed to [patching your ROM](/chokuretsu/guide/patching-the-rom).
+**Метод:**
+1. С помощью смартфона, планшета или другого устройства, способного создать беспроводную точку доступа, создайте незащищенную (без пароля) или защищенную WEP точку доступа (должна быть защищена WEP, поскольку WPA и другие современные стандарты шифрования не поддерживаются DS).
+2. На другом компьютере [загрузите wooddumper](https://digiex.net/threads/wood-dumper-dump-nintendo-ds-roms-and-save-games-over-wi-fi-with-an-nintendo-ds.14729/). Затем подключите этот компьютер к только что созданной точке доступа.
+3. Установите wooddumper.nds (не версию для слота 2) в правую часть флэш-картриджа через SD-карту.
+4. Вставьте игру Nintendo DS с поддержкой подключения Nintendo Wi-Fi и перейдите в меню Wi-Fi. Подключитесь к созданной вами точке доступа.
+5. Выходим из игры и вынимаем картридж. Теперь вставьте флэш-картридж, на который вы только что установили Wooddumper, и запустите его на своем DS.
+6. Следуйте инструкциям на экране и вставьте картридж с *Последовательностями Харухи Судзумии*, когда появится соответствующий запрос. Продолжайте, пока вам не будет предоставлен IP-адрес для подключения с помощью FTP-клиента.
+7. Используя FTP-клиент, например [net2ftp](https://www.net2ftp.com/), встроенный браузер тот или иной, например [FileZilla](https://filezilla-project.org/), введите IP-адрес в соответствующее поле. Вам не нужно указывать имя пользователя или пароль.
+8. Скопируйте .nds ROM и .txt файлына свой компьютер. Вы можете приступить к [Rom патчингу](/chokuretsu/guide/patching-the-rom).
 
 #### Dump using dual-slot flash cartridges
 **Requirements:**
